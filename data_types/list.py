@@ -6,6 +6,7 @@ stack.pop() #[3, 4, 5]
 print(stack)
 
 # 2. Queue
+# deque -> doble end queue
 from collections import deque
 queue = deque(["Eric", "John", "Michael"])
 queue.append("Terry")

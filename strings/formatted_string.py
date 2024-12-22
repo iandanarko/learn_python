@@ -14,3 +14,10 @@ for name, phone in table.items():
 print('We are the {} who say "{}!"'.format('knights', 'Ni'))
 print('{1} and {0}'.format('spam', 'eggs'))
 print('This {food} is {adjective}.'.format(food='spam', adjective='absolutely horrible'))
+
+multiLineString = """
+  this 
+  is 
+  multiline
+  string
+"""
